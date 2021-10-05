@@ -1,0 +1,122 @@
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.slide-container {
+    /* Border */
+    border-radius: 20px;
+
+    /* Margin/Padding */
+    margin: auto;
+    margin-top: 15px;
+
+    /* Size */
+    max-width: 1000px;
+
+    /* Placing */
+    position: relative;
+}
+
+.slide-container img{
+    /* Border */
+    border-radius: 2px;
+
+    /* Size */
+    width:100%;
+}
+
+.slides {
+    display: none;
+}
+
+.prev, .next {
+    /* Color*/
+    color: white;
+
+    /* Cursor */
+    cursor: pointer;
+
+    /* Border */
+    border-radius: 2px;
+
+    /* Font */
+    font-weight: bold;
+    font-size: 50px;
+    user-select: none;
+
+    /* Maring/Padding */
+    margin-top: -50px;
+    padding: 15px;
+
+    /* Size */
+    width: auto;
+
+    /* Placing */
+    position: absolute;
+    top: 50%;
+
+    /* Animation */
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+
+.next {
+    /* Border */
+    border-radius: 2px;
+
+    /* Placing */
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    /* Animation */
+    opacity: 1;
+}
+
+.spaces-bc:hover {
+    background-color: #A8C79F;    
+  }
+
+.text {
+    /* Color */
+    color: #fff;
+
+    /* Font */
+    font-size: 20px;
+    font-family: MontserratB;
+    text-align: center;
+
+    /* Margin/Padding */
+    padding: 5px;
+
+    /* Size */
+    width: 100%;
+
+    /* Placing */
+    position: absolute;
+    bottom: 5px;
+}
+
+/* Animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+}
+
+/* Media rules */
+@media only screen and (max-width: 600px) {
+    .text {
+      font-size: 15px;
+    }
+  }

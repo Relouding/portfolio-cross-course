@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="contact information for rainydays">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+</head>
+<body>
+
+<header>
+  <img src="images/newheaderimage.png" alt="header image">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li class="first-li"><a href="index.html">HOME</a></li>
+      <li class="first-li"><a href="jackets.html">JACKETS</a></li>
+      <li class="first-li"><a href="about.html">ABOUT</a></li>
+      <li class="first-li"><a href="contact.html">CONTACT</a></li>
+      <li class="first-li"><a href="login.html">LOGIN</a></li>
+    </ul>
+  </nav>
+</section>
+
+<section>
+  <content>
+    <h1>CONTACT US</h1>
+    <h2>is there a problem with your purchase?</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium a, assumenda suscipit voluptatum
+      harum porro. Nobis temporibus inventore autem corporis delectus iusto ex quos? Consequatur fuga reprehenderit
+      accusantium! Vel alias voluptatibus voluptates eos sunt ut similique ad, in ipsum minus incidunt blanditiis
+      quam libero, vitae nam, delectus saepe doloremque tempore consectetur cupiditate optio corrupti nemo non.
+      Voluptatibus incidunt delectus eveniet ratione libero fugiat ut quae fuga nulla, molestiae ipsa quo, ipsum
+      non, atque possimus rerum praesentium eius doloremque dicta labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero, distinctio necessitatibus quae laudantium
+      quisquam reprehenderit sapiente nesciunt placeat nam voluptatibus ad. Sunt sint eos ducimus dignissimos incidunt
+      illum, corrupti debitis enim totam ut saepe, mollitia error minus veniam reiciendis amet asperiores veritatis esse
+      ratione sequi culpa voluptatibus beatae consectetur. Tempore iste provident id soluta quidem explicabo culpa quasi
+      blanditiis?</p>
+  </content>
+</section>
+
+<section>
+  <content>
+    <div id="info" class="info"></div>
+    <form id="contactForm">
+      <div class="form-ok" id="formOk">You will receive a confirmation email shortly</div>
+
+        <label for="name"><i class="fa fa-user"></i> Full name:</label>
+        <input type="text" id="userName" name="firstname" placeholder="Your full name ..">
+      <div class="form-error" id="userNameError">Please enter your name, must be at least 5 characters</div>
+
+        <label for="ename"><i class="fa fa-envelope"></i> Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email ..">
+      <div class="form-error" id="emailError">Please enter a valid email address</div>
+
+        <label for="rea"><i class="fa fa-pencil"></i> Reason:</label>
+        <input type="text" id="message" name="reason" placeholder="Your reason ..">
+      <div class="form-error" id="messageError">Your message must be at least 15 characters</div>
+
+    </form>
+      <a href="index.html"><button class="button-b" type="submit" form="contactForm" valdue="submit">Submit</button></a>
+  </content>
+</section>
+
+<footer>
+  <div id="pf">Copyright ® 2021 v.1.0 - Andreas Tønnessen Frøitland</div>
+</footer>
+
+  <!-- Scripts. -->
+  <script src="js/validate.js"></script>
+</body>
+</html>

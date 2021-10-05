@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="register page">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Register</title>
+  <script  src="js/validate.js"></script>
+</head>
+<body>
+
+<header>
+  <img src="images/newheaderimage.png" alt="header image">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li class="first-li"><a href="index.html">HOME</a></li>
+      <li class="first-li"><a href="jackets.html">JACKETS</a></li>
+      <li class="first-li"><a href="about.html">ABOUT</a></li>
+      <li class="first-li"><a href="contact.html">CONTACT</a></li>
+      <li class="first-li"><a href="login.html">LOGIN</a></li>
+    </ul>
+  </nav>
+</section>
+
+<section>
+  <content>
+    <h1>REGISTER</h1>
+    <h2>fill in all necessary fields</h2>
+    
+    <form id="register" onsubmit="return validateForm()">
+        <label for="fname"><i class="fa fa-user"></i> Full name:</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your full name ..">
+        <label for="uname"><i class="fa fa-user-o"></i> Username:</label>
+        <input type="text" id="uname" name="username" placeholder="Your username ..">
+        <label for="ename"><i class="fa fa-envelope"></i> Email:</label>
+        <input type="text" id="ename" name="email" placeholder="Your email ..">
+        <label for="pass"><i class="fa fa-lock"></i> Password:</label>
+        <input type="text" id="pass" name="password" placeholder="Your password ..">
+        <label for="copass"><i class="fa fa-lock"></i> Confirm password:</label>
+        <input type="text" id="copass" name="confirmpassword" placeholder="Confirm password ..">
+    </form>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus quod excepturi quidem ratione
+      enim iste distinctio voluptate assumenda! Expedita odit doloribus alias! Maxime dolorem eos officiis omnis
+      tenetur. Laborum magnam ut blanditiis esse fugit dolor, quos harum earum. Minus, a ipsam. Quis repudiandae
+      commodi deleniti, distinctio labore, fugit ducimus sunt qui expedita doloremque molestias enim, laboriosam
+      aspernatur vel eaque?</p>
+      <button class="button-b" type="submit" form="register" value="submit">Register</button>
+  </content>
+</section>
+
+<footer>
+  <div id="pf">Copyright ® 2021 v.1.0 - Andreas Tønnessen Frøitland</div>
+</footer>
+
+</body>
+</html>
+
