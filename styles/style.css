@@ -520,14 +520,16 @@
       justify-content: space-between;
       font-family: arial;
       font-size: 15px;
-      max-width: 400px;
+      max-width: 380px;
       width: 100%;
-      padding: 5px;
+      padding: 10px 10px 10px 10px;
       margin: 0 auto;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
       border-radius: 2px;
       background: rgb(236, 236, 236);
-      overflow: hidden;
+      overflow-wrap: break-word;
+      text-align: justify;
+      background-color: #d3d3d3;
     }
 
     .product-new img {
@@ -576,30 +578,38 @@
 
     .info-container-new {
       max-width: 600px;
-      margin: 0 auto;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 2px;
       display: block;
+      overflow-wrap: break-word;
+      text-align: justify;
+      background-color: #d3d3d3;
+      padding: 10px 30px 10px 30px;
     }
 
     .info-container-new img {
       margin: auto;
+      display: block;
     }
 
     /* Media rules */
-    @media (max-device-width: 640px) {
+    @media only screen and (max-width: 640px) {
       li a {
-        font-size: 180%;
+        font-size: 1em;
       }
  
       p {
-        font-size: 90%;
+        font-size: 0.9em;
       }
 
       h2 {
-        font-size: 105%;
+        font-size: 1em;
       }
 
       h1 {
-        font-size: 350%;
+        font-size: 3em;
       }
 
       .section-b {
